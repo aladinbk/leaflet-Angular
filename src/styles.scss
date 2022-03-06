@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~leaflet/dist/leaflet.css";
+//@import "~leaflet-plugin-trackplayback/dist/control.playback.css";
+
+.map-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 20px;
+}
+
+.map-border {
+  border: 5px solid rgb(31, 94, 119);
+  height: 100%;
+}
+
+#map {
+  height: 100%;
+}
